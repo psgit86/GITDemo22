@@ -6,7 +6,7 @@ public class Test2 {
 		
 		String sleepy = "yes";
 		
-		if(sleepy == "yes")
+		if(sleepy == "yes" || sleepy ==  "y" || sleepy ==  "Y")
 			System.out.println("Goodnight");
 		else
 			System.out.println("Do work....");
